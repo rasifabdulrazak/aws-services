@@ -1,0 +1,20 @@
+AWS Core Services
+==========================
+1. IAM
+2. EC2 - VM
+    - Load Balancer
+    - Auto Scaling (Horizontal)
+3. S3 - simple storage service
+4. Container management
+        ECR - Elastic Container Registry
+        ECS - Elastic Container Service
+        EKS - Elastic Kubernetes Service
+5. Cloud Watch
+6. Cloud Trail
+7. RDS - Relational Database
+9. Document DB - Similar Like Mongodb (NoSQL DB)
+10. Cache - Elastic Cache (Reddis)
+11. Distributed System - 
+        SQS - Simple Queue Service
+        SNS - Simple Notification Service
+        SES - Simple Email Service

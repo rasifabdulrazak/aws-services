@@ -1,0 +1,4 @@
+IAM Users
+=============
+-Root users can access permissions to IAM user , Billing and resources
+-Best practice is to use IAM user for resources
