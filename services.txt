@@ -1,6 +1,6 @@
 AWS Core Services
 ==========================
-1. IAM
+1. IAM User
 2. EC2 - VM
     - Load Balancer
     - Auto Scaling (Horizontal)

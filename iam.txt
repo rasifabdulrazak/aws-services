@@ -1,4 +1,38 @@
+Refrencce : https://youtu.be/bO25vbkoJlA?si=F0N6nzhvVuSl_lE3
+Refrencce : https://medium.com/@mudasirhaji/how-to-create-an-aws-iam-user-a-step-by-step-guide-39d2a07a1670
+
 IAM Users
 =============
--Root users can access permissions to IAM user , Billing and resources
--Best practice is to use IAM user for resources
+-Root users can access permissions to IAM user , Billing and resources.
+-Best practice is to use IAM user for resources.
+-We can create policies while creating users.
+
+Method of creating : 
+    1.Search IAM in console
+    2.Goto users and create user option.
+    3.We will get ARN ..This is the resource ID.we will use this in resource sharing.
+    4.Enabling console premission will give the permisions to access aws console to the user.
+      We will get a url to console for user.
+      Its will be remain as IAM user..Not a root user..So it will only have a limited access.
+    5.{
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "Statement1",
+                "Effect": "Allow",
+                "Action": [],
+                "Resource": []
+            }
+	    ]
+        }  We can add permissions and controlls like this in the policies options and assign this to the user.
+    6. We can also create groups
+
+
+AWS Organization
+=======================
+1.We can create organization and add users to it
+2.Search for aws organisation and goto it and add users
+
+Assume Role : AWS Role
+======================
+1.
